@@ -1,11 +1,16 @@
 {
-  "name": "bootstrap_website",
-  "version": "1.0.0",
-  "description": "Bootstrap 4 website template",
-  "main": "fontawesome.all.min.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Divine Nature",
-  "license": "MIT"
+	"name": "bootstrap_website",
+	"version": "1.0.0",
+	"description": "Bootstrap 4 website template",
+	"homepage": "https://dnature.github.io/bootstrap_website",
+	"main": "fontawesome.all.min.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"deploy": "gh-pages -d dist"
+	},
+	"author": "Divine Nature",
+	"license": "MIT",
+	"dependencies": {
+		"gh-pages": "^2.0.1"
+	}
 }
